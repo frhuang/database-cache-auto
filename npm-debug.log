@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'mongo' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 verbose run-script [ 'premongo', 'mongo', 'postmongo' ]
+5 info lifecycle database-cache@1.0.0~premongo: database-cache@1.0.0
+6 silly lifecycle database-cache@1.0.0~premongo: no script for premongo, continuing
+7 info lifecycle database-cache@1.0.0~mongo: database-cache@1.0.0
+8 verbose lifecycle database-cache@1.0.0~mongo: unsafe-perm in lifecycle true
+9 verbose lifecycle database-cache@1.0.0~mongo: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/hfrun/hfrun/icode/database-cache/node_modules/.bin:/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/templates:/Applications/Cocos/Cocos2d-x:/Applications/Cocos/tools/ant/bin:/Applications/Cocos/frameworks:/Applications/Cocos/Cocos2d-x/cocos2d-x-3.10/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle database-cache@1.0.0~mongo: CWD: /Users/hfrun/hfrun/icode/database-cache
+11 silly lifecycle database-cache@1.0.0~mongo: Args: [ '-c', 'node ./src/mongo/index.js' ]
+12 silly lifecycle database-cache@1.0.0~mongo: Returned: code: 1  signal: null
+13 info lifecycle database-cache@1.0.0~mongo: Failed to exec mongo script
+14 verbose stack Error: database-cache@1.0.0 mongo: `node ./src/mongo/index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:194:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:194:7)
+14 verbose stack     at maybeClose (internal/child_process.js:899:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid database-cache@1.0.0
+16 verbose cwd /Users/hfrun/hfrun/icode/database-cache
+17 error Darwin 15.0.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "mongo"
+19 error node v7.7.2
+20 error npm  v4.1.2
+21 error code ELIFECYCLE
+22 error database-cache@1.0.0 mongo: `node ./src/mongo/index.js`
+22 error Exit status 1
+23 error Failed at the database-cache@1.0.0 mongo script 'node ./src/mongo/index.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the database-cache package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./src/mongo/index.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs database-cache
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls database-cache
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

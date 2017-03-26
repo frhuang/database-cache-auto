@@ -1,0 +1,17 @@
+{
+  "name": "database-cache",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "mysql": "node ./src/mysql/index.js",
+    "mongo": "node ./src/mongo/index.js"
+  },
+  "dependencies": {
+    "ioredis": "^2.5.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.1",
+    "sequelize": "^3.30.3"
+  }
+}
